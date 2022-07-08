@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="CommandInsert.aspx" />
     <Content Include="CommandSelect.aspx" />
+    <Content Include="CommandUpdate.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -85,6 +86,13 @@
     </Compile>
     <Compile Include="CommandSelect.aspx.designer.cs">
       <DependentUpon>CommandSelect.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CommandUpdate.aspx.cs">
+      <DependentUpon>CommandUpdate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CommandUpdate.aspx.designer.cs">
+      <DependentUpon>CommandUpdate.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
