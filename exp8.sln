@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.32413.511
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exp8", "exp8\exp8.csproj", "{B2D77E0F-E519-4A0D-9B5D-CECB27A7BA75}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exp4", "exp4\exp4.csproj", "{17A9DB0C-10DC-494F-BDC0-DF2B7E34D639}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exCalendar", "exCalendar\exCalendar.csproj", "{8EBC7FCF-1F4E-45DC-8348-346AC796EC86}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{17A9DB0C-10DC-494F-BDC0-DF2B7E34D639}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17A9DB0C-10DC-494F-BDC0-DF2B7E34D639}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17A9DB0C-10DC-494F-BDC0-DF2B7E34D639}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EBC7FCF-1F4E-45DC-8348-346AC796EC86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EBC7FCF-1F4E-45DC-8348-346AC796EC86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EBC7FCF-1F4E-45DC-8348-346AC796EC86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EBC7FCF-1F4E-45DC-8348-346AC796EC86}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

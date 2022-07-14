@@ -1,6 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="CalendarControl.aspx.cs" Inherits="exp4.CalendarControl" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+    <asp:Label ID="lblSelected" runat="server"></asp:Label>
     <div class="row">
         <asp:Calendar class="col" ID="Calendar1" OnSelectionChanged="Calendar_SelectionChanged" OnDayRender="Calendar_DayRender" runat="server">
             <SelectedDayStyle BackColor="#D1D0D0" Font-Bold="True"></SelectedDayStyle>
